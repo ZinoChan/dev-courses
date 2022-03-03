@@ -1,7 +1,12 @@
 import type { NextPage } from "next";
+import Hero from "../common/components/Hero";
 
 const Home: NextPage = () => {
-  return <div className="bg-primary-100">New Courses</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
