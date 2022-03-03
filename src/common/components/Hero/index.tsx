@@ -29,6 +29,7 @@ const Hero = () => {
         <p className="text-primary-dark-200 text-sm mb-6">
           Most in demand tech stacks and frameworks
         </p>
+        <MarqueeText />
       </div>
     </section>
   );
