@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LoginOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
   const navLinks = [
@@ -27,8 +28,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button className="rounded-full px-4 py-1 border border-primary-dark-200 text-primary-dark-200">
-          Login
+        <button className="rounded-full px-4 py-1 flex items-center space-x-3 border border-primary-dark-200 text-primary-dark-200">
+          <LoginOutlined />
+          <span>Login</span>
         </button>
       </nav>
     </header>

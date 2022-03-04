@@ -2,6 +2,7 @@ import Image from "next/image";
 import rocket from "../../../assets/rocket.svg";
 import star from "../../../assets/star.svg";
 import MarqueeText from "./MarqueeText";
+import { SwapRightOutlined } from "@ant-design/icons";
 
 const Hero = () => {
   return (
@@ -24,8 +25,10 @@ const Hero = () => {
             un testo segnaposto utilizzato nel settore <br /> della tipografia e
             della stampa.
           </p>
-          <button className="rounded-full px-8 py-3 font-bold bg-primary-dark-100 text-white">
-            Get Started
+          <button className="rounded-full px-8 py-3  font-bold bg-primary-dark-100 text-white">
+            <span className="mr-3">Get Started</span>
+
+            <SwapRightOutlined className="text-xl" />
           </button>
         </div>
       </div>
