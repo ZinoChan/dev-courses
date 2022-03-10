@@ -3,6 +3,7 @@ import CourseSection from "../common/components/Courses";
 import Features from "../common/components/Features";
 import Hero from "../common/components/Hero";
 import Pricing from "../common/components/Pricing";
+import ReviewsSection from "../common/components/Reviews";
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <CourseSection />
       <Pricing />
       <Features />
+      <ReviewsSection />
     </>
   );
 };
