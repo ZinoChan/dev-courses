@@ -17,6 +17,7 @@ module.exports = {
         "primary-300": "#8500FF",
         "primary-dark-100": "#20267A",
         "primary-dark-200": "#2B193D",
+        "footer-100": "#FCFCFF",
       },
     },
   },
