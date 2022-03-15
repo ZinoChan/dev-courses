@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 type Props = {
@@ -10,6 +11,7 @@ function Layout({ children }: Props) {
       <Navbar />
 
       {children}
+      <Footer />
     </main>
   );
 }
