@@ -1,6 +1,7 @@
 import Title from "../UI/Title";
 import { fakeData } from "../../../../fakeData";
 import CourseCard from "./CourseCard";
+import Button from "../UI/Button";
 
 function CourseSection() {
   return (
@@ -14,9 +15,9 @@ function CourseSection() {
           ))}
         </div>
         <div className="text-center">
-          <button className="rounded-full px-8 py-3 font-bold border-2 border-primary-200 bg-white text-primary-200 shadow-xl">
+          <Button className="rounded-full outlined-primary-200">
             View all Courses
-          </button>
+          </Button>
         </div>
       </div>
     </section>

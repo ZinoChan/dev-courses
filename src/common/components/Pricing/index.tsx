@@ -3,6 +3,7 @@ import Title from "../UI/Title";
 import pricing_1 from "../../../assets/pricing_1.svg";
 import pricing_2 from "../../../assets/pricing_2.svg";
 import pricing_3 from "../../../assets/pricing_3.svg";
+import Button from "../UI/Button";
 
 const Pricing = () => {
   const plans = [
@@ -88,11 +89,9 @@ const Pricing = () => {
                   </div>
                 ))}
               </div>
-              <button
-                className={`rounded-lg w-full py-2 border-2 border-${plan.color} text-${plan.color} font-bold capitalize`}
-              >
+              <Button className={`rounded-lg w-full outlined-${plan.color}`}>
                 get started
-              </button>
+              </Button>
             </div>
           ))}
         </div>

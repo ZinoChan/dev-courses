@@ -1,3 +1,4 @@
+import Button from "../UI/Button";
 import Title from "../UI/Title";
 
 const NewsLetter = () => {
@@ -14,9 +15,7 @@ const NewsLetter = () => {
             placeholder="Enter your email"
             className="border-gray-300 bg-gray-50 p-2 border-2 w-full "
           />
-          <button className="rounded px-8 py-3  font-bold bg-gradient-to-br from-primary-100 to-primary-200 text-white">
-            Subscribe
-          </button>
+          <Button className="rounded btn-gradient">Subscribe</Button>
         </form>
       </div>
     </section>
