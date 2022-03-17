@@ -52,3 +52,38 @@
   border: 1px solid #e33761;
   border-radius: 8px;
 }
+
+/* Buttons */
+.btn {
+  @apply px-8 py-3  font-bold capitalize;
+}
+.btn-blue {
+  @apply bg-primary-dark-100 text-white;
+}
+.btn-gradient {
+  @apply bg-gradient-to-br from-primary-100 to-primary-200 text-white;
+}
+
+.btn-primary-100 {
+  @apply bg-primary-100 text-white;
+}
+
+.outlined-primary-100 {
+  @apply border-2 border-primary-100 text-primary-100 hover:bg-primary-100  hover:text-white;
+}
+
+.btn-primary-200 {
+  @apply bg-primary-200 text-white;
+}
+
+.outlined-primary-200 {
+  @apply border-2 border-primary-200 text-primary-200 hover:bg-primary-200 hover:text-white;
+}
+
+.btn-primary-300 {
+  @apply bg-primary-300 text-white;
+}
+
+.outlined-primary-300 {
+  @apply border-2 border-primary-300 text-primary-300 hover:bg-primary-300 hover:text-white;
+}
